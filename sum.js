@@ -1,14 +1,14 @@
 function sum(value){
-      let currentSum = value;
+  let currentSum = value;
 
-      function cs(currentValue){
-        currentSum +=currentValue;
-        return cs;
-      }
-      
-      cs.toString = function(){
-        return currentSum;
-      }
+  function cs(currentValue){
+	currentSum +=currentValue;
+	return cs;
+  }
+  
+  cs.toString = function(){
+	return currentSum;
+  }
 
-      return cs;
-    }
+  return cs;
+}
